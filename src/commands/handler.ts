@@ -27,7 +27,7 @@ export async function createSpringBootProjectCmdHandler(context: vscode.Extensio
 }
 
 export async function createMicroProfileStarterProjectCmdHandler(context: vscode.ExtensionContext) {
-  if (!await validateAndRecommendExtension("microProfile-community.mp-starter-vscode-ext", "MicroProfile Starter for Visual Studio Code is recommended to help create MicroProfile starter projects.", true)) {
+  if (!await validateAndRecommendExtension("microProfile-community.mp-starter-vscode-ext", "MicroProfile Starter for Visual Studio Code is recommended to generate starter projects for Eclipse MicroProfile.", true)) {
     return;
   }
 
